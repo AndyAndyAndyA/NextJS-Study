@@ -1,0 +1,16 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Study Next"
+    },
+    {
+      "id": 2,
+      "title": "Study React"
+    },
+    {
+      "id": 3,
+      "title": "Study Node"
+    }
+  ]
+}

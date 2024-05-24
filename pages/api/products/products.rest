@@ -1,0 +1,35 @@
+@host=http://localhost:3000
+@route=api/products
+
+###
+GET {{host}}/{{route}}
+
+
+###
+
+POST {{host}}/{{route}}
+Content-Type: application/json
+
+{
+    "id": 4,
+    "title": "mongodb study"
+}
+
+###
+
+PUT {{host}}/{{route}}
+Content-Type: application/json
+
+{
+    "id": 4,
+    "title": "Mongodb Study"
+}
+
+###
+
+DELETE {{host}}/{{route}}
+Content-Type: application/json
+
+{
+    "id": 4
+}
